@@ -21,12 +21,12 @@ export class UserComponent implements OnInit {
      (error)=>{
        console.log(error)
      });
-    //  this.userService.getRepo(username).then((success)=>{
-    //   this.repos = this.userService.repos;
-    //  },
-    //  (error)=>{
-    //    console.log(error)
-    //  });
+     this.userService.getRepo(username).then((success)=>{
+      this.repos = this.userService.repos;
+     },
+     (error)=>{
+       console.log(error)
+     });
    }
 
   ngOnInit(): void {
