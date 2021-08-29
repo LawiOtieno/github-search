@@ -8,8 +8,8 @@ import { Repo } from '../repo';
   providedIn: 'root'
 })
 export class SearchService {
-  // user!:User;
-  // repos!:Repo;
+  user!:User;
+  repos!:Repo;
 
   // constructor(private http:HttpClient) { 
   //   this.user = new User("",0,0,0,"","","");
