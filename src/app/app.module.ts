@@ -11,6 +11,7 @@ import { SearchComponent } from './components/search/search.component';
 import { DateCountPipe } from './date-count.pipe';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { UserDirectDirective } from './directives/user-direct.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './components/footer/footer.component';
     SearchComponent,
     DateCountPipe,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    UserDirectDirective
   ],
   imports: [
     BrowserModule,
