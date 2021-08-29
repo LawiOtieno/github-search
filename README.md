@@ -1,6 +1,8 @@
 # GithubSearch
+This is an Application that enables people to search for users in GitHub using their usernames or repositories. The search results provide user details and public repositories.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
+
+<p>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.</p>
 
 ## Development server
 
