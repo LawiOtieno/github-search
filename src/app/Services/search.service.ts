@@ -11,21 +11,21 @@ export class SearchService {
   user!:User;
   repos!:Repo;
 
-  // constructor(private http:HttpClient) { 
-  //   this.user = new User("",0,0,0,"","","");
-  //   this.repos = new Repo("","","","",new Date());
-  // }
+  constructor(private http:HttpClient) { 
+    this.user = new User("",0,0,0,"","","");
+    this.repos = new Repo("","","","",new Date());
+  }
 
-  // getProfile(username:string){
-  //   interface ApiResponse{
-  //       name:string;
-  //       login: string;
-  //       url:string
-  //       avatar_url:string;
-  //       followers:number;
-  //       following:number;
-  //       public_repos:number;
-  //   }
+  getProfile(username:string){
+    interface ApiResponse{
+        name:string;
+        login: string;
+        url:string
+        avatar_url:string;
+        followers:number;
+        following:number;
+        public_repos:number;
+    }
 
   //   let userUrl = 'https://api.github.com/users/'+username+'?client_id='+environment.clientId + "&client_secret="+environment.clientSecret;
 
