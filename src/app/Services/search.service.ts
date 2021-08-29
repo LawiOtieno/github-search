@@ -36,14 +36,14 @@ export class SearchService {
 
         resolve()
       },
-  //     error=>{
-  //       this.user.name = "We couldn’t find any users matching the name given"
+      error=>{
+        this.user.name = "We couldn’t find any users matching the name given"
 
-  //       reject(error)
-  //       })
-  //     })
-  //     return promise;
-  //   }
+        reject(error)
+        })
+      })
+      return promise;
+    }
 
   //   getRepo(username:string){
   //     interface ApiResponse{
