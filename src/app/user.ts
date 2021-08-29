@@ -6,5 +6,7 @@
 //         public public_repos:number,
 //         public url:string,
 //         public avatar_url:string,
-//         public login:string){}
+//         public login:string,
+//         // public bio:string,
+//         ){}
 // }
